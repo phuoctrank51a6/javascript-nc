@@ -28,59 +28,65 @@
 </head>
 
 <body>
-	<div id="wrapper">
-		<div id="header">
-			<div class="mobile"><img height="80px" src="images/logo_tthpfptc.png" alt=""></div>
-		</div>
-		<div id="menu">
-			<ul>
-				<li><a href="home.html">Trang chủ</a></li>
-				<li><a href="dathang.html">Sản phẩm</a></li>
-				<li><a href="detail.html">Khuyến mãi</a></li>
-				<li><a href="contact.html">Liên hệ</a></li>
-			</ul>
-			<div class="tim">
-				<form action="" name="form">
-					<input class="ip-name" type="text" name="name" placeholder=" Tìm Kiếm ...">
-					<input type="button" onclick="search()" value="Search">
-					<a href="cart.html"><img style="height: 30px;float: right; margin-left: 20px;" src="Images/cart.png"
-							alt=""></a>
-				</form>
-			</div>
-		</div>
-	</div>
-	<div class="clear"></div>
+  <div id="wrapper">
+    <div id="header">
+      <div class="mobile"><img height="80px" src="images/logo_tthpfptc.png" alt=""></div>
+    </div>
+    <div id="menu">
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+      </ul>
+      <ul id="category">
+        <li><a href="dathang.html">Sản phẩm</a></li>
+        <li><a href="detail.html">Khuyến mãi</a></li>
+      </ul>
+      <ul>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+      <div class="tim">
+        <form action="" name="form">
+          <input class="ip-name" type="text" name="name" placeholder=" Tìm Kiếm ...">
+          <input type="button" onclick="search()" value="Search">
+          <a href="cart.html"><img style="height: 30px;float: right; margin-left: 20px;" src="Images/cart.png"
+              alt=""></a>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
   <form method="get" accept-charset="utf-8" style="width:600px;margin: 0px auto;" id="form-validate">
     <h2>Liên hệ</h2>
-      <div>
-        <label>Họ tên</label>
-        <input name="name" type="text" placeholder="Vui lòng nhập họ" required>
-      </div>
-      <div>
-        <label>Địa chỉ</label>
-        <input name="address" type="text" placeholder="Vui lòng nhập địa chỉ" required>
-      </div>
-      <div>
-        <label>Số điện thoại</label>
-        <input name="phone" type="text" placeholder="Vui lòng nhập số điện thoại" required>
-      </div>
-      <div>
-        <label>Email</label>
-        <input name="email" type="text" placeholder="Vui lòng nhập Email" required>
-      </div>
-      <div>
-        <label>Tiêu đề</label>
-        <input name="title" type="text" placeholder="Tùy chọn...">
-      </div>
-      <div>
-        <label>Nội dung</label>
-        <input name="content" type="text" placeholder="Tùy chọn...">
-      </div>
-      <button type="submit">Gửi</button>
+    <div>
+      <label>Họ tên</label>
+      <input name="name" type="text" placeholder="Vui lòng nhập họ" required>
+    </div>
+    <div>
+      <label>Địa chỉ</label>
+      <input name="address" type="text" placeholder="Vui lòng nhập địa chỉ" required>
+    </div>
+    <div>
+      <label>Số điện thoại</label>
+      <input name="phone" type="text" placeholder="Vui lòng nhập số điện thoại" required>
+    </div>
+    <div>
+      <label>Email</label>
+      <input name="email" type="text" placeholder="Vui lòng nhập Email" required>
+    </div>
+    <div>
+      <label>Tiêu đề</label>
+      <input name="title" type="text" placeholder="Tùy chọn...">
+    </div>
+    <div>
+      <label>Nội dung</label>
+      <input name="content" type="text" placeholder="Tùy chọn...">
+    </div>
+    <button type="submit">Gửi</button>
   </form>
-		<div id="footer">
-			<p>designed by Trần Hồng Phước <sup>™</sup></p>
-		</div>
+  <div id="footer">
+    <p>designed by Trần Hồng Phước <sup>™</sup></p>
+  </div>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
   <script src="js/contact.js"></script>
 </body>
 
