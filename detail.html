@@ -1,8 +1,9 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>mua</title>
+	<meta charset="utf-8">
+	<title>Chi tiết sản phẩm</title>
 	<link rel="stylesheet" href="css/dathang.css" type="text/css">
 	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 	<script src="js/axios.js"></script>
@@ -11,36 +12,43 @@
 <body>
 	<div id="wrapper">
 		<div id="header">
-				<b class="mobile">P MOBILE</b>
-				<p class="sologan">CHỌN LÀ MUA</p>
+			<b class="mobile">P MOBILE</b>
+			<p class="sologan">CHỌN LÀ MUA</p>
 		</div>
 		<div id="menu">
 			<menu>
 				<ul>
-					<li><a href="trangchu.html">Trang chủ</a></li>
-					<li><a href="dathang.html">Sản phẩm</a></li>
-					<li><a href="#">Khuyến mãi</a></li>
-					<li><a href="cuahang.html">Liên hệ</a></li>
-					<li><a href="#">Giỏ hàng</a></li>
+					<li><a href="index.html">Trang chủ</a></li>
+				</ul>
+				<ul id="category">
+					<!-- <li><a href="dathang.html">Sản phẩm</a></li>
+				<li><a href="detail.html">Khuyến mãi</a></li> -->
+				</ul>
+				<ul>
+					<li><a href="contact.html">Liên hệ</a></li>
 				</ul>
 			</menu>
 			<div class="tim">
-			<input type="text" placeholder=" Tìm Kiếm ..." >
-			<button>Seach</button>
-				</div>
-		</div>
-			<img src="Images/anh-bia-1222x465-1150x465.png" alt="" style="width: 980px;">
-			<div id="sanpham">
-				<div id="img-prd"></div>
-				<h2 id="sp"></h2>
-				<b id="price"></b>
-				<button style="float: right;"><a onclick="addCart()" href="#">MUA HÀNG</a></button>
+				<input type="text" placeholder=" Tìm Kiếm ...">
+				<button>Seach</button>
 			</div>
+		</div>
+		<img src="Images/anh-bia-1222x465-1150x465.png" alt="" style="width: 980px;">
+		<div id="sanpham">
+			<div id="img-prd"></div>
+			<h2 id="sp"></h2>
+			<b id="price"></b>
+			<div id="btn-buy">
+
+			</div>
+		</div>
 		<div id="mota">
 			<div class="mota">MÔ TẢ</div>
 			<br>
-			<b id="desc" style="font-size: 20px">Mặc dù giữ nguyên vẻ bề ngoài so với dòng điện thoại iPhone đời trước, bù lại iPhone 7 Plus 32GB lại được trang bị nhiều nâng cấp đáng giá như camera kép đầu tiên cũng như cấu hình mạnh mẽ.</b>
-	  </div>
+			<b id="desc" style="font-size: 20px">Mặc dù giữ nguyên vẻ bề ngoài so với dòng điện thoại iPhone đời trước, bù lại
+				iPhone 7 Plus 32GB lại được trang bị nhiều nâng cấp đáng giá như camera kép đầu tiên cũng như cấu hình mạnh
+				mẽ.</b>
+		</div>
 		<div id="footer">
 			<div class="home"></div>
 			<p>designed by Trần Hồng Phước <sup>™</sup></p>
@@ -50,4 +58,5 @@
 		getDetail();
 	</script>
 </body>
+
 </html>
