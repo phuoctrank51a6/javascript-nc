@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;padding: 0;font-family: arial;}
+#wrapper {
+	margin: auto;
+	width: 980px;
+}
+#header {
+	background-image: url("../Images/knowledge_graph_logo.png");
+	background-size: 20%;
+	background-repeat: no-repeat;
+	height: 150px;
+	background-color: white;
+	padding: 60px 0 0 180px;
+}
+.mobile {
+	font-size: 50px;
+	color: #006699;
+	font-family: "Bauhaus 93";float: left;
+}
+.sologan {
+	text-align: left;
+	font-family: "Comic Sans MS";
+	color: black;
+	font-weight: bold;
+	font-size: 20px;clear: both;
+}
+.logo{
+	width: 308px;
+	height: 245px;
+	margin-right: 10px;
+	float: left;
+	margin-bottom: 5px;
+}
+.logo img{
+	margin: 5px 0 5px 80px;
+}
+.logo p{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+}
+#menu{
+	border-radius: 30px 30px 0 0;
+	clear: both;
+	height: 50px;
+	background-color: #333333;
+}
+#menu ul li {
+	list-style: none;
+	float: left;
+	padding:15px 20px;
+}
+#menu ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+#menu ul li a:hover {
+	color: #999999;
+}
+.tim {
+	float: right;
+	margin: 10px 50px 0 0;
+}
+.tim input {
+	height: 25px;
+	border-radius: 10px;
+	
+}
+.tim input:hover {
+	width: 250px;
+}
+.tim button {
+	height: 30px;
+	width: 60px;
+	border-radius: 10px;
+	padding: 5px;
+}
+#sanpham {
+}
+#sanpham img {
+	width: 50%;
+	float: left;
+}
+.sp {
+	font-size: 25px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+#sanpham b{
+	font-size: 20px;
+	color: red
+}
+#sanpham strike {
+	font-size: 15px;
+	color: black;
+}
+#sanpham table {
+	margin-top: 10px;
+}
+#sanpham table tr td{
+	padding: 10px 5px ;
+}
+tr:nth-child(odd){
+        background-color: #ddd;
+    }
+#sanpham button {
+	width: 49%;
+	height: 50px;
+	background-color: #cc0000;
+	color: white;
+	font-size: 20px;
+	margin-top: 10px;
+}
+#sanpham button a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+#sanpham button:hover{
+	background-color: #eb1c23;
+}
+#mota {
+	clear: both;
+}
+.mota {
+	margin-top: 15px;
+	padding: 15px 0 0 20px;
+	font-size: 20px;
+	font-weight: bold;
+	height: 30px;
+	border-top: 3px solid #C0272D;
+	background-color: darkgray;
+}
+.to {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.phai {
+	margin-top: 10px;
+	width: 460px;
+	float: right;
+	text-align: justify;
+	clear: both;
+}
+.trai{
+	margin-top: 10px;
+	width: 460px;
+	float: left;
+	text-align: justify;
+	clear: both;}
+#footer {
+	height: 40px;
+	border-radius: 0 0 30px 30px;
+	background-color: #333333;
+	color: white;
+	font-size: 20px;
+	text-align: right;
+	padding: 40px 30px 0 0}
+
+
+
+
+
