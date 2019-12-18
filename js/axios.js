@@ -1,5 +1,5 @@
 
-const API = "http://5df046a202b2d90014e1bcfc.mockapi.io/category";
+const API = "https://5df046a202b2d90014e1bcfc.mockapi.io/category";
 
 
 function getCategory(API) {
