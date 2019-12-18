@@ -37,7 +37,7 @@ function getProduct(API) {
         return `	<div class="product">
 					<a href="detail.html" onclick="setItem(id = ${products.id},idCategory = 2)"><img src="${products.avatar}" alt=""></a>
 					<p href="detail.html" class="name-prd"><a onclick="setItem(id = ${products.id},idCategory = 2)">${products.name}</a></p>
-          <p class="price-prd">$ ${products.price}</p>
+          <p class="price-prd">$$ ${products.price}</p>
 				  <a style="color:black" href="#" onclick="addCart(id = ${products.id}, name = '${products.name}', avatar = '${products.avatar}', price = ${products.price})">Mua hàng</a>
         </div>`
       }).join("");
